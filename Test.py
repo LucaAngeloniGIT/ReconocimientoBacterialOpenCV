@@ -1,42 +1,20 @@
-import cv2
-import numpy as np;
-
-im =  cv2.imread("Bac.jpg",cv2.IMREAD_GRAYSCALE)
-
-detector = cv2.SimpleBlobDetector()
-
-keypoints = detector.detect(im)
-
-im_with_keypoints = cv2.drawKeypoints(im, keypoints, np.array([]), (0,0,255), cv2.DRAW_MATCHES_FLAGS_DRAW_RICH_KEYPOINTS)
+import numpy as np
+import cv2 as cv
  
-cv2.imshow("Keypoints", im_with_keypoints)
-cv2.waitKey(0)
-
-params = cv2.SimpleBlobDetector_Params()
+img = cv.imread('Bac.jpg', cv.IMREAD_GRAYSCALE)
+assert img is not None, "file could not be read, check with os.path.exists()"
+img = cv.medianBlur(img,5)
+cimg = cv.cvtColor(img,cv.COLOR_GRAY2BGR)
  
-# Change thresholds
-params.minThreshold = 10
-params.maxThreshold = 200
+circles = cv.HoughCircles(img,cv.HOUGH_GRADIENT,50,100,param1=50,param2=30,minRadius=10,maxRadius=100)
  
-# Filter by Area.
-params.filterByArea = True
-params.minArea = 1500
+circles = np.uint16(np.around(circles))
+for i in circles[0,:]:
+    # draw the outer circle
+    cv.circle(cimg,(i[0],i[1]),i[2],(0,255,0),2)
+    # draw the center of the circle
+    cv.circle(cimg,(i[0],i[1]),2,(0,0,255),3)
  
-# Filter by Circularity
-params.filterByCircularity = True
-params.minCircularity = 0.1
- 
-# Filter by Convexity
-params.filterByConvexity = True
-params.minConvexity = 0.87
- 
-# Filter by Inertia
-params.filterByInertia = True
-params.minInertiaRatio = 0.01
- 
-# Create a detector with the parameters
-ver = (cv2.__version__).split('.')
-if int(ver[0]) < 3 :
- detector = cv2.SimpleBlobDetector(params)
-else : 
- detector = cv2.SimpleBlobDetector_create(params)
+cv.imshow('Circulos',cimg)
+cv.waitKey(0)
+cv.destroyAllWindows()
