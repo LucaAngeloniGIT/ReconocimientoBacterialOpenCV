@@ -31,6 +31,7 @@ Parámetros del contorno:
 	- invariantes a escala y rotación
 
 8) Con los parámetros detectados intentar predecir el tipo de morfología bacteriana.
+   
 
 
 Los distintos tipos de bacterias a analizar:
