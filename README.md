@@ -14,11 +14,12 @@ tratamiento de una imagen
 
    	Funciones como: SimpleBlobDetector() - findContours() y convexHull()- Sobel().
 
-4) Filtrado de contornos por área y forma
+3) Filtrado de contornos por área y forma
    
    	Eliminar los elementos que no nos son útiles, como contornos muy pequeños, muy  grandes o demasiado geometricos
   
-7) Analizar el movimiento en la imagen
+4) Analizar el movimiento en la imagen
+
 5)Extracción de descriptores de forma
 
   Parámetros del contorno:
