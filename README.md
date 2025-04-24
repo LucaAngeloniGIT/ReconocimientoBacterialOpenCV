@@ -18,10 +18,8 @@ Procesamiento de imagen con OpenCV(python) <====> Analisis bacterial del agua <=
    	Eliminar los elementos que no nos son útiles, como contornos muy pequeños, muy  grandes o demasiado geometricos
   
 4) Analizar el movimiento en la imagen
-
-
-
-5)Extracción de descriptores de forma
+5) Extracción de descriptores de forma
+   
 
 	Parámetros del contorno:
 		-Largo (elongación): distinguir bacilos de cocos.
