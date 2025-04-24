@@ -1,8 +1,7 @@
-![image](https://github.com/user-attachments/assets/db7be4ee-9c5c-4a1f-9531-632345e4d739)# ReconocimientoBacterialOpenCV
+##### ReconocimientoBacterialOpenCV ##### 
 Procesamiento de imagen con OpenCV(python) <====> Analisis bacterial del agua <====> Detectar objetos de un video en movimiento 
 
-tratamiento de una imagen
-(para detección de bacterias por su forma/color/comportamiento)
+						**tratamiento de una imagen (para detección de bacterias por su forma/color/comportamiento)**
 
 1) Preprocesamiento de imagen
 
@@ -22,7 +21,7 @@ tratamiento de una imagen
 
 
 
-5)Extracción de descriptores de forma:
+5)Extracción de descriptores de forma
 
   Parámetros del contorno:
   
