@@ -10,22 +10,26 @@ tratamiento de una imagen
 	-Destacar contornos  =====>  Pendiente
 
 2) Segmentación y detección de contornos
-	Funciones como: SimpleBlobDetector() - findContours() y convexHull()- Sobel().
+   	Funciones como: SimpleBlobDetector() - findContours() y convexHull()- Sobel().
 
-3) Filtrado de contornos por área y forma
-Eliminar los elementos que no nos son útiles, como contornos muy pequeños, muy  grandes o demasiado geometricos
-
-4) Analizar el movimiento en la imagen
-
+4) Filtrado de contornos por área y forma
+   	Eliminar los elementos que no nos son útiles, como contornos muy pequeños, muy  grandes o demasiado geometricos
+6) Analizar el movimiento en la imagen
 5)Extracción de descriptores de forma
+
   Parámetros del contorno:
+  
     -Largo (elongación): distinguir bacilos de cocos.
+
     -Circularidad: ![image](https://github.com/user-attachments/assets/f74b70f0-9397-4d1e-92f4-80815049c283)
+    
     -Aspect Ratio: ancho / alto 
       Valor ≈ 1 → forma más bien cuadrada o circular.
       Valor ≫ 1 → muy alargada (bacilo).
+    
     -Momentos de imagen (momentos de HU)
       invariantes a escala y rotación
+
 6) Con los parámetros detectados intentar predecir el tipo de morfología bacteriana.
 
 
