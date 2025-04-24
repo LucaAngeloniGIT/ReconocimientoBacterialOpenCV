@@ -11,12 +11,11 @@ Procesamiento de imagen con OpenCV(python) <====> Analisis bacterial del agua <=
 
 3) Segmentación y detección de contornos
 
-- SimpleBlobDetector() - findContours() y convexHull()- Sobel().
+- SimpleBlobDetector()
+- findContours() y convexHull()
+- Sobel()
 
-4) Filtrado de contornos por área y forma
-   
-   	Eliminar los elementos que no nos son útiles, como contornos muy pequeños, muy  grandes o demasiado geometricos
-  
+4) Filtrado de contornos por área y forma (Eliminar los elementos que no nos son útiles, como contornos muy pequeños, muy  grandes o demasiado geometricos)
 5) Analizar el movimiento en la imagen
 6) Extracción de descriptores de forma
 	Parámetros del contorno:
