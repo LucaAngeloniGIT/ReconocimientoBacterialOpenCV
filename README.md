@@ -16,7 +16,9 @@ Procesamiento de imagen con OpenCV(python) <====> Analisis bacterial del agua <=
 - Sobel()
 
 4) Filtrado de contornos por área y forma (Eliminar los elementos que no nos son útiles, como contornos muy pequeños, muy  grandes o demasiado geometricos)
+
 5) Analizar el movimiento en la imagen
+
 6) Extracción de descriptores de forma
 Parámetros del contorno:
 - Largo (elongación): distinguir bacilos de cocos.
@@ -30,10 +32,13 @@ Parámetros del contorno:
 - Momentos de imagen (momentos de HU)
 	- invariantes a escala y rotación
 
+
 8) Con los parámetros detectados intentar predecir el tipo de morfología bacteriana.
-   
 
 
-Los distintos tipos de bacterias a analizar:
+
+
+####Los distintos tipos de bacterias a analizar####
+
 ![image](https://github.com/user-attachments/assets/a1fda4e6-919b-40c8-bb9e-990d8b97549f)
 ![image](https://github.com/user-attachments/assets/4399bb73-1eec-4ddf-8f69-ad2cab3c23ff)
