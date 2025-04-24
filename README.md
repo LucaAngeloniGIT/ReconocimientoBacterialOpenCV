@@ -5,16 +5,20 @@ tratamiento de una imagen
 (para detección de bacterias por su forma/color/comportamiento)
 
 1) Preprocesamiento de imagen
-	-Mejorar contraste (Gris) ===> Resuelto
+
+ 	-Mejorar contraste (Gris) ===> Resuelto
 	-Imagen Binaria (treshold) ==> Resuelto
 	-Destacar contornos  =====>  Pendiente
 
 2) Segmentación y detección de contornos
+
    	Funciones como: SimpleBlobDetector() - findContours() y convexHull()- Sobel().
 
 4) Filtrado de contornos por área y forma
+   
    	Eliminar los elementos que no nos son útiles, como contornos muy pequeños, muy  grandes o demasiado geometricos
-6) Analizar el movimiento en la imagen
+  
+7) Analizar el movimiento en la imagen
 5)Extracción de descriptores de forma
 
   Parámetros del contorno:
