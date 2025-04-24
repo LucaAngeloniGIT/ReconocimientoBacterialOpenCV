@@ -22,7 +22,7 @@ tratamiento de una imagen
 
 
 
-5)Extracción de descriptores de forma
+5)Extracción de descriptores de forma:
 
   Parámetros del contorno:
   
