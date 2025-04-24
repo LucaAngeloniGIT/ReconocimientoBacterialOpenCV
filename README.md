@@ -4,10 +4,7 @@ Procesamiento de imagen con OpenCV(python) <====> Analisis bacterial del agua <=
 	tratamiento de una imagen (para detección de bacterias por su forma/color/comportamiento)
 
 1) Preprocesamiento de imagen
-
- 	-Mejorar contraste (Gris) ===> Resuelto
-	-Imagen Binaria (treshold) ==> Resuelto
-	-Destacar contornos  =====>  Pendiente
+ 	-Mejorar contraste (Gris) - Imagen Binaria (treshold) - Destacar contornos
 
 2) Segmentación y detección de contornos
 
