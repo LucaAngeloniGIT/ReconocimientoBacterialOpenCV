@@ -20,6 +20,8 @@ tratamiento de una imagen
   
 4) Analizar el movimiento en la imagen
 
+
+
 5)Extracción de descriptores de forma
 
   Parámetros del contorno:
