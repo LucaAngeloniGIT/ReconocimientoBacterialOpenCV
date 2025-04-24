@@ -4,18 +4,19 @@ Procesamiento de imagen con OpenCV(python) <====> Analisis bacterial del agua <=
 	tratamiento de una imagen (para detección de bacterias por su forma/color/comportamiento)
 
 1) Preprocesamiento de imagen
+   
  	-Mejorar contraste (Gris) - Imagen Binaria (treshold) - Destacar contornos
 
-2) Segmentación y detección de contornos
+3) Segmentación y detección de contornos
 
    	Funciones como: SimpleBlobDetector() - findContours() y convexHull()- Sobel().
 
-3) Filtrado de contornos por área y forma
+4) Filtrado de contornos por área y forma
    
    	Eliminar los elementos que no nos son útiles, como contornos muy pequeños, muy  grandes o demasiado geometricos
   
-4) Analizar el movimiento en la imagen
-5) Extracción de descriptores de forma
+5) Analizar el movimiento en la imagen
+6) Extracción de descriptores de forma
 	Parámetros del contorno:
 		-Largo (elongación): distinguir bacilos de cocos.
    		-Circularidad: ![image](https://github.com/user-attachments/assets/f74b70f0-9397-4d1e-92f4-80815049c283)
