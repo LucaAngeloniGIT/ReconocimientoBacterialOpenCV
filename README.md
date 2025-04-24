@@ -22,11 +22,11 @@ Parámetros del contorno:
 - Largo (elongación): distinguir bacilos de cocos.
 - Circularidad: ![image](https://github.com/user-attachments/assets/f74b70f0-9397-4d1e-92f4-80815049c283)
 - Aspect Ratio: ancho / alto
- - Valor ≈ 1 → forma más bien cuadrada o circular.
- - Valor ≫ 1 → muy alargada (bacilo).
+	- Valor ≈ 1 → forma más bien cuadrada o circular.
+ 	- Valor ≫ 1 → muy alargada (bacilo).
     
-    -Momentos de imagen (momentos de HU)
-      invariantes a escala y rotación
+- Momentos de imagen (momentos de HU)
+	- invariantes a escala y rotación
 
 8) Con los parámetros detectados intentar predecir el tipo de morfología bacteriana.
 
