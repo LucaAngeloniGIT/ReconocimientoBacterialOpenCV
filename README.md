@@ -5,11 +5,11 @@ Procesamiento de imagen con OpenCV(python) <====> Analisis bacterial del agua <=
 
 1) Preprocesamiento de imagen
    
- 	-Mejorar contraste (Gris) - Imagen Binaria (treshold) - Destacar contornos
+ - Mejorar contraste (Gris) - Imagen Binaria (treshold) - Destacar contornos
 
 3) Segmentación y detección de contornos
 
-   	Funciones como: SimpleBlobDetector() - findContours() y convexHull()- Sobel().
+- SimpleBlobDetector() - findContours() y convexHull()- Sobel().
 
 4) Filtrado de contornos por área y forma
    
