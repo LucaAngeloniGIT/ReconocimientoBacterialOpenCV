@@ -1,7 +1,7 @@
 ##### ReconocimientoBacterialOpenCV ##### 
 Procesamiento de imagen con OpenCV(python) <====> Analisis bacterial del agua <====> Detectar objetos de un video en movimiento 
 
-						tratamiento de una imagen (para detección de bacterias por su forma/color/comportamiento)
+	tratamiento de una imagen (para detección de bacterias por su forma/color/comportamiento)
 
 1) Preprocesamiento de imagen
 
