@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-img = cv2.imread("Bac.jpg")
+img = cv2.imread("Figuras.png")
 
 def identify_moles (image):
     keypoints = detector.detect(image)
@@ -14,7 +14,7 @@ params = cv2.SimpleBlobDetector_Params()
 params.minThreshold = 10;
 params.maxThreshold = 200;
 params.filterByArea = True
-params.minArea = 0.1 #1500
+params.minArea = 10 #1500
 params.filterByCircularity = True
 params.minCircularity = 0.1 #0.1
 params.filterByConvexity = True
