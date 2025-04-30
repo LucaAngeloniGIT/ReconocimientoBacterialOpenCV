@@ -2,7 +2,7 @@ from ultralytics import YOLO
 
 model = YOLO("yolo11n-obb")
 
-results = model("Bac.jpg",show=True)
+results = model("ski.mp4",show=True,save=True)
 
 for result in results:
     xywh = result.boxes.xywh  # center-x, center-y, width, height
