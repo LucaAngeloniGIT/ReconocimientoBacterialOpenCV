@@ -1,0 +1,13 @@
+train: D:\MAIN\Bacterialrecog\ReconocimientoBacterialOpenCV\Deteccion con YoloV11\ModelosConDATASETs\WaterDataset\train\images
+val: D:\MAIN\Bacterialrecog\ReconocimientoBacterialOpenCV\Deteccion con YoloV11\ModelosConDATASETs\WaterDataset\valid\images
+test: D:\MAIN\Bacterialrecog\ReconocimientoBacterialOpenCV\Deteccion con YoloV11\ModelosConDATASETs\WaterDataset\test\images
+
+nc: 3
+names: ['E-coli', 'Paramecium', 'Yeast']
+
+roboflow:
+  workspace: bacterialrecog
+  project: microorganism-in-water-hlqlq
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/bacterialrecog/microorganism-in-water-hlqlq/dataset/1
