@@ -1,4 +1,4 @@
-##### ReconocimientoBacterialOpenCV ##### 
+##### ReconocimientoBacterialYOLOv11##### 
 
 
 
