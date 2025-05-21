@@ -1,5 +1,11 @@
 ##### ReconocimientoBacterialOpenCV ##### 
-Procesamiento de imagen con OpenCV(python) <====> Analisis bacterial del agua <====> Detectar objetos de un video en movimiento 
+
+
+
+
+
+##### ReconocimientoBacterialOpenCV ##### 
+Procesamiento de imagen con OpenCV(python) <====> Analisis bacterial del agua <====> Detectar objetos de un video en movimiento (YOLOv11) 
 
 	tratamiento de una imagen (para detección de bacterias por su forma/color/comportamiento)
 
